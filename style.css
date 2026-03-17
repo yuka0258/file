@@ -218,11 +218,13 @@ body h1 {
     body h1 {
         font-size: 2rem;
         text-align: left;
-        padding: 2.5rem 0 0 3rem;
+        padding: 2rem;
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 99
+        z-index: 99;
+        background: #fbfffe;
+        width: 100%;
     }
 }
 
