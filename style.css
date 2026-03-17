@@ -872,7 +872,7 @@ small {
     font-size: 1.4rem;
 }
 
-.work_title_box .work_text a{
+.work_title_box .work_link {
     padding-bottom: 1rem;
     font-size: 1.2rem;
 }
