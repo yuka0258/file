@@ -869,13 +869,16 @@ small {
 }
 
 .work_title_box .work_text{
-    font-size: 1.6rem;
+    padding-bottom: 1.6rem;
 }
 
 .work_title_box .work_text a{
     font-size: 1rem;
 }
 
+.work_title_box .work_text p{
+    line-height: 1.4;
+}
 
 /* */
 .modal{
