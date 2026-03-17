@@ -877,6 +877,15 @@ small {
     font-size: 1.2rem;
 }
 
+.work_title_box .work_link a:hover {
+    color: #3eb1dd
+}
+
+.work_title_box .work_link a:hover::after {
+    width: 100%
+}
+
+
 .work_title_box .work_text p{
     line-height: 1.4;
 }
