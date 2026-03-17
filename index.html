@@ -80,10 +80,18 @@
                     </div>
 
                     <div class="box box1_1">
+                        <button class="modal-open" data-modal="modal1">モーダル1</button>
                         <div class="img_box img_box1_1">
                             <a href="247dtp.html">
                                 <img src="img/himaraya.png" alt="himarayaの画像">
                             </a>
+                        </div>
+                        <div class="modal" id="modal1">
+                            <div class="modal-box">
+                                <span class="modal-close">&times;</span>
+                                <h2>タイトル1</h2>
+                                <img src="img/himaraya.png" alt="himarayaの画像">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -112,6 +120,31 @@
 
 
     <script src="./js/script.js"></script>
+    <script>
+        const openBtns = document.querySelectorAll(".modal-open");
+        const modals = document.querySelectorAll(".modal");
+
+        openBtns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                const id = btn.dataset.modal;
+                document.getElementById(id).classList.add("active");
+            });
+        });
+
+        document.querySelectorAll(".modal-close").forEach(btn => {
+            btn.addEventListener("click", () => {
+                btn.closest(".modal").classList.remove("active");
+            });
+        });
+
+        modals.forEach(modal => {
+            modal.addEventListener("click", (e) => {
+                if (e.target === modal) {
+                    modal.classList.remove("active");
+                }
+            });
+        });
+    </script>
 
 
 </body>
