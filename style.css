@@ -872,6 +872,11 @@ small {
     font-size: 1.6rem;
 }
 
+.work_title_box .work_text a{
+    font-size: 1rem;
+}
+
+
 /* */
 .modal{
   position:fixed;
