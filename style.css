@@ -223,8 +223,9 @@ body h1 {
         top: 0;
         left: 0;
         z-index: 99;
-        background: #fbfffe;
+        background: #3eb1e0;
         width: 100%;
+        color: #fff;
     }
 }
 
