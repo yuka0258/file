@@ -859,6 +859,11 @@ small {
     padding: 3rem 0
 }
 
+/* page */
+.work_title{
+    padding-bottom: 1rem;
+}
+
 /* */
 .modal{
   position:fixed;
@@ -883,8 +888,8 @@ small {
   width:100%;
   max-width:420px;
 
-  max-height:80vh;   /* ←ここが重要 */
-  overflow:auto;     /* 内容が多い時スクロール */
+  max-height:80vh;  
+  overflow:auto; 
 
   border-radius:12px;
   padding:24px;
@@ -906,8 +911,6 @@ small {
   font-size:24px;
   cursor:pointer;
 }
-
-/* スマホ調整 */
 @media (max-width:600px){
 
 .modal-box{
