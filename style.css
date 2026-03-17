@@ -478,11 +478,11 @@ main article section .box {
     left: 4.66%
 }
 
-.img_box1_1::before {
+/*.img_box1_1::before {
     content: "";
     display: block;
     padding-top: 62%
-}
+}*/
 
 .img_box a,
 .img_box a img {
