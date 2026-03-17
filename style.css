@@ -199,7 +199,7 @@ h1 {
 
 h2 {
     font-size: 2.4rem;
-    color: #dd573e
+    color: #3eb1dd;
 }
 
 @media only screen and (max-width: 560px) {
@@ -285,7 +285,7 @@ header {
     content: "";
     width: 0;
     height: 1px;
-    background-color: #dd573e;
+    background-color: #3eb1dd;
     -webkit-transition: .3s;
     transition: .3s;
     -webkit-transform: translateX(-50%);
@@ -293,7 +293,7 @@ header {
 }
 
 #g-nav li a:hover {
-    color: #dd573e
+    color: #3eb1dd
 }
 
 #g-nav a:hover::after {
@@ -314,7 +314,7 @@ ul.menu_second {
 }
 
 .menu_second li a:hover {
-    color: #dd573e
+    color: #3eb1dd
 }
 
 li.menu_single {
@@ -404,7 +404,7 @@ li.menu_single:hover ul.menu_second {
         top: 0;
         width: 100%;
         height: 100vh;
-        background: #dd573e;
+        background: #3eb1dd;
         -webkit-transition: all 1s;
         transition: all 1s
     }
@@ -436,7 +436,7 @@ li.menu_single:hover ul.menu_second {
 
     #g-nav.panelactive ul li {
         width: 100%;
-        background: #dd573e
+        background: #3eb1dd
     }
 
     #g-nav.panelactive ul li a {
@@ -804,7 +804,7 @@ main article section .box .m_svg a:hover {
     content: "";
     width: 0;
     height: 1px;
-    background-color: #dd573e;
+    background-color: #3eb1dd;
     -webkit-transition: .3s;
     transition: .3s;
     -webkit-transform: translateX(-50%);
@@ -812,7 +812,7 @@ main article section .box .m_svg a:hover {
 }
 
 .right a:hover {
-    color: #dd573e
+    color: #3eb1dd
 }
 
 .right a:hover::after {
