@@ -860,8 +860,16 @@ small {
 }
 
 /* page */
-.work_title{
+.work_title_box{
+    padding-bottom: 2rem;
+}
+
+.work_title_box h2{
     padding-bottom: 1rem;
+}
+
+.work_title_box .work_text{
+    font-size: 1.6rem;
 }
 
 /* */
