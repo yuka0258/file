@@ -869,11 +869,12 @@ small {
 }
 
 .work_title_box .work_text{
-    padding-bottom: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .work_title_box .work_text a{
-    font-size: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
 .work_title_box .work_text p{
