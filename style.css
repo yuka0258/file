@@ -864,6 +864,10 @@ small {
     padding-bottom: 2rem;
 }
 
+.work_title {
+    padding-bottom: 1.6rem;
+}
+
 .work_title_box h2 {
     padding-bottom: 1rem;
 }
@@ -873,7 +877,6 @@ small {
 }
 
 .work_title_box .work_link {
-    padding-bottom: 1.6rem;
     font-size: 1.2rem;
 }
 
