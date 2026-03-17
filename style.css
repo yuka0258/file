@@ -877,6 +877,31 @@ small {
     font-size: 1.2rem;
 }
 
+.work_title_box .work_link a{
+    display: inline-block;
+}
+
+.work_title_box .work_link a {
+    position: relative;
+    display: block;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+.work_title_box .work_link a::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #3eb1dd;
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
 .work_title_box .work_link a:hover {
     color: #3eb1dd
 }
@@ -884,7 +909,6 @@ small {
 .work_title_box .work_link a:hover::after {
     width: 100%
 }
-
 
 .work_title_box .work_text p{
     line-height: 1.4;
