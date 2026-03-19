@@ -612,7 +612,8 @@ main article section .box .m_svg a:hover {
     border: 1px solid #777;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: 30rem
+    margin-top: 30rem;
+    text-align: left;
 }
 
 .left {
