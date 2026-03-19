@@ -863,6 +863,23 @@ small {
     padding: 3rem 0
 }
 
+#footer_wrapper h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* page */
 .work_title_box {
     padding-bottom: 2rem;
