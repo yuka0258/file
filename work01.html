@@ -24,15 +24,15 @@
 
 <body>
     <header id="header_wrapper">
-        <h1>Yuka Takeuchi Portfolio</h1>
-        <nav id="g-nav">
-            <ul class="menu">
-                <li>
-                    <a href="index.html">WORK</a>
-                </li>
-            </ul>
-        </nav>
     </header>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header_wrapper').innerHTML = data;
+            })
+            .catch(error => console.error('エラー:', error));
+    </script>
     <main>
         <article>
             <section id="contents">
@@ -60,26 +60,18 @@
                     </div>
                 </div>
             </section>
-            <section>
-                <div class="a_wrap">
-                    <div class="left">
-                        <div class="left_cap">
-                            <h2>ABOUT</h2>
-                            <p>
-                                1991年生まれ。コーダー歴5年以上。<br>
-                                ■対応可スキル<br>
-                                HTML / CSS / JavaScript（簡単なUI）/ WordPress / Figma対応
-                                / 楽天 / shopfiy / selcefoce marketing cloud...
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </article>
     </main>
-    <footer>
-        <small>&copy;2026 Yuka Takeuchi</small>
+    <footer id="footer_wrapper">
     </footer>
+    <script>
+        fetch('footer.html') 
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer_wrapper').innerHTML = data;
+            })
+            .catch(error => console.error('エラー:', error));
+    </script>
 
 
 
