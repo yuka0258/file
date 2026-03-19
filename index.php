@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
 
+<head>
+    <meta name=”robots” content=”noindex” />
+    <meta name=”robots” content=”nofollow” />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/touch-icon.png" />
+
+    <title>Yuka Takeuchi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <header id="header_wrapper">
+        <?php include 'header.php'; ?>
+    </header>
+    <main>
+        <article>
+            <section id="contents">
+                <div class="main_wrap">
+
+                    <div class="box box1_1">
+                        <div class="img_box img_box1_1">
+                            <a href="247lp.html">
+                                <img src="images/247_img/lp_top2.jpg" alt="LPデザインの画像">
+                            </a>
+                        </div>
+                        <h2>LP Design</h2>
+                        <div class="m_svg">
+                            <a href="247lp.html"><img src="images/view.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="box box1_1">
+                        <div class="img_box img_box1_1">
+                            <a href="work02.html">
+                                <img src="img/fitteria.png" alt="fitteriaの画像" width="100%">
+                            </a>
+                        </div>
+                        <h2>女性専用ジムサイト</h2>
+                    </div>
+                    <div class="box box1_1">
+                        <div class="img_box img_box1_1">
+                            <a href="work01.html">
+                                <img src="img/himaraya.png" alt="himarayaの画像" width="100%">
+                            </a>
+                        </div>
+                        <h2>リユース用品ECサイト</h2>
+                    </div>
+
+                    <!--<div class="box box1_1 modal-open" data-modal="modal1">
+                        <div class="img_box img_box1_1">
+                                <img src="img/himaraya.png" alt="himarayaの画像" width="100%">
+                        </div>      
+                    </div>
+                    <div class="modal" id="modal1">
+                            <div class="modal-box">
+                                <span class="modal-close">&times;</span>
+                                <img src="img/himaraya.png" alt="himarayaの画像" width="100%s">
+                            </div>
+                        </div>-->
+                </div>
+            </section>
+            
+        </article>
+    </main>
+    <footer>
+       <section>
+                <div class="a_wrap">
+                    <div class="left">
+                        <div class="left_cap">
+                            <h2>ABOUT</h2>
+                            <p>
+                                1991年生まれ。コーダー歴5年以上。<br>
+                                ■対応可スキル<br>
+                                HTML / CSS / JavaScript（簡単なUI）/ WordPress / Figma対応
+                                / 楽天 / shopfiy / selcefoce marketing cloud...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <small>&copy;2026 Yuka Takeuchi</small>
+    </footer>
+
+
+
+    <script src="./js/script.js"></script>
+    <script>
+        const openBtns = document.querySelectorAll(".modal-open");
+        const modals = document.querySelectorAll(".modal");
+
+        openBtns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                const id = btn.dataset.modal;
+                document.getElementById(id).classList.add("active");
+            });
+        });
+
+        document.querySelectorAll(".modal-close").forEach(btn => {
+            btn.addEventListener("click", () => {
+                btn.closest(".modal").classList.remove("active");
+            });
+        });
+
+        modals.forEach(modal => {
+            modal.addEventListener("click", (e) => {
+                if (e.target === modal) {
+                    modal.classList.remove("active");
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
