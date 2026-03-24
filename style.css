@@ -866,7 +866,6 @@ small {
 
 .profile {
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .profile img {
@@ -877,8 +876,8 @@ small {
 }
 
 .profile_sec {
-    border-bottom: 2px solid #000;
-    padding: 20px;
+    border-bottom: 2px solid #777;
+    padding: 1.6rem;
 }
 
 .profile_sec h3 {
