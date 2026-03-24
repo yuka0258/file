@@ -873,6 +873,7 @@ small {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
+    padding-bottom:1rem;
 }
 
 .profile_sec {
@@ -881,13 +882,13 @@ small {
 }
 
 .profile_sec h2 {
-    padding:1rem;
+    padding-bottom:1rem;
 }
 
 .profile_sec h3 {
-    padding:1rem;
+    padding-bottom:1rem;
     font-size: 2rem;
-    color: #3eb1dd;
+    color: #335980;
 }
 
 /* page */
