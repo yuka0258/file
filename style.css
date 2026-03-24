@@ -876,11 +876,16 @@ small {
 }
 
 .profile_sec {
-    border-bottom: 2px solid #777;
+    border-bottom: 1px solid #777;
     padding: 1.6rem;
 }
 
+.profile_sec h2 {
+    padding:1rem;
+}
+
 .profile_sec h3 {
+    padding:1rem;
     font-size: 2rem;
     color: #3eb1dd;
 }
