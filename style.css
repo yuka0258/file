@@ -863,11 +863,6 @@ small {
     padding: 3rem 0
 }
 
-#footer_wrapper h2 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-}
-
 .profile {
     text-align: center;
     margin-bottom: 20px;
@@ -878,6 +873,9 @@ small {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
+}
+.profile_sec{
+    border-bottom: 2px solid #ddd;
 }
 
 /* page */
