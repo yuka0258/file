@@ -875,9 +875,15 @@ small {
     border-radius: 50%;
     object-fit: cover;
 }
-.profile_sec{
+
+.profile_sec {
     border-bottom: 2px solid #000;
     padding: 20px;
+}
+
+.profile_sec h3 {
+    font-size: 2rem;
+    color: #3eb1dd;
 }
 
 /* page */
