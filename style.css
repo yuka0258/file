@@ -420,9 +420,6 @@ li.menu_single:hover ul.menu_second {
         transition: all 1s;*/
     }
     
-    #g-nav .menu > li a{
-        color: #3eb1e0;
-    }
     #g-nav.panelactive {
         opacity: .9;
         z-index: 990;
@@ -924,6 +921,10 @@ small {
 }
 
 @media only screen and (max-width: 600px) {
+    .profile p{
+        text-align: left;
+    }
+    
     .profile_box {
         display: block;
     }
