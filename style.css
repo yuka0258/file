@@ -567,9 +567,9 @@ main article section .box .m_svg a:hover {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-justify-content: space-around;
+    -webkit-justify-content: space-between;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 10rem auto;
     padding: 0 2rem;
 }
