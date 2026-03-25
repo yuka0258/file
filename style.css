@@ -853,6 +853,10 @@ main article section .box .m_svg a:hover {
     display: none;
 }
 
+#footer_wrapper{
+    border-top: 1px solid #777;
+}
+
 footer {
     text-align: center;
     margin-bottom: 10rem;
@@ -866,8 +870,9 @@ small {
 }
 
 .profile {
-    border-top: 1px solid #777;
     padding: 3rem 0;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .profile_box {
@@ -877,10 +882,7 @@ small {
     justify-content: space-between;
 }
 
-.profile_sec {
-    max-width: 1000px;
-    margin: auto;
-}
+.profile_sec {}
 
 .profile img {
     width: 120px;
@@ -905,7 +907,7 @@ small {
     color: #335980;
 }
 
-.profile_sec h4{
+.profile_sec h4 {
     padding-bottom: 0.8rem;
 }
 
