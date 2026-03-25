@@ -913,6 +913,9 @@ small {
     .profile_box {
         display: block;
     }
+    .profile_sec h3{
+        font-size: 1.4rem;
+    }
 }
 
 /* page */
