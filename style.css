@@ -864,6 +864,9 @@ small {
     border-bottom: 1px solid #777;
     border-top: 1px solid #777;
 }
+.profile{
+    border-top: 1px solid #777;
+}
 
 .profile_box {
     text-align: left;
@@ -884,8 +887,7 @@ small {
     
 }
 
-.profile_sec {
-    
+.profile_sec {  
     padding: 1.6rem;
 }
 
