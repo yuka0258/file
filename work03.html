@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta name=”robots” content=”noindex” />
+    <meta name=”robots” content=”nofollow” />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/touch-icon.png" />
+
+    <title>Yuka Takeuchi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <header id="header_wrapper">
+    </header>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header_wrapper').innerHTML = data;
+            })
+            .catch(error => console.error('エラー:', error));
+    </script>
+    <main>
+        <article>
+            <section id="contents">
+                <div class="main_wrap">
+                    <div>
+                        <div class="work_title_box">
+                            <div class="work_title">
+                                <h2>LP</h2>
+                                <!--<div class="work_link">
+                                    <a href="https://fitteria.jp/?adcode=fitfo-prreprti-stor-2470-serv0000-00000000&utm_source=release&utm_medium=prtimes">https://fitteria.jp/?adcode=fitfo-prreprti-stor-2470-serv0000-00000000&utm_source=release&utm_medium=prtimes</a>
+                                </div>-->
+                            </div>
+                            <div class="work_text">
+                                <p>
+                                    担当<br>
+                                    全ページコーディング<br>
+                                    レスポンシブ対応
+                                </p>
+                            </div>    
+                        </div>
+                        <div>
+                            <img src="img/LP.png" alt="LPの画像" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer id="footer_wrapper">
+    </footer>
+    <script>
+        fetch('footer.html') 
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer_wrapper').innerHTML = data;
+            })
+            .catch(error => console.error('エラー:', error));
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
